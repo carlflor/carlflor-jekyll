@@ -1,0 +1,99 @@
+.canvas {
+  position: fixed;
+  /*top: 0;*/
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+  z-index: 1;
+
+  > .canvas-inner {
+    background-color: $main-bg-blue;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.main {
+  position: relative;
+  z-index: 2;
+  margin: 0 30px;
+  padding: 0 20px 50px 120px;
+
+  > .greeting {
+    font-size: 130px;
+    font-family: 'Vidaloka', serif;
+    font-weight: 100;
+    /*background-color: white;*/
+  }
+
+  > .divider {
+    margin-bottom: 35px;
+    max-width: 700px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #888
+  }
+
+  > .subtitle {
+    margin-top: 35px;
+  }
+
+}
+
+.about-me, .email {
+  max-width: 500px;
+  font-size: 20px;
+  font-weight: 100;
+
+  > .desc-link {
+    text-decoration: none;
+    color: #0067b1;
+  }
+
+}
+
+.email {
+  margin-top: 15px;
+}
+
+.tools {
+  list-style: none;
+}
+
+.social-media {
+  list-style: none;
+  margin-top: 35px;
+
+  li {
+    display: inline-block;
+  }
+  li a {
+    font-size: 20px;
+    color: #0067b1;
+    margin-right: 15px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    position: relative;
+    z-index: 2;
+    margin: 0 30px;
+    padding: 0 30px 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    > .greeting {
+      font-size: 90px;
+    }
+  }
+
+  .about-me, .email {
+    font-size: 15px;
+  }
+}

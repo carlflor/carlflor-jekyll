@@ -1,0 +1,7 @@
+title: Carl Flor
+description: Here's a brief write up about me. Checkout my work! :)
+baseurl: ""
+url: "http://carlflor.xyz" 
+
+# Build settings
+markdown: kramdown
