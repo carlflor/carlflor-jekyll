@@ -1,7 +1,7 @@
 title: Carl Flor
 description: A software engineer based in Manila. Check out my work! :)
 baseurl: ""
-url: "http://carlflor.xyz"
+url: "https://carlflor.xyz"
 repository: carlflor/carlflor
 # Build settings
 markdown: kramdown
