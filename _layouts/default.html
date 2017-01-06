@@ -4,7 +4,16 @@
   {% include head.html %}
 
   <body>
-    {{ content }}
+    <div class="home">
+      <div class="canvas">
+        <div class="canvas-inner"></div>
+      </div>
+      <div class="main">
+        <h1 class="greeting">{{page.greeting}}</h1>
+        <hr class="divider">
+        {{ content }}
+      </div>
+    </div>
   </body>
 
 </html>

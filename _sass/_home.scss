@@ -25,7 +25,6 @@
     font-size: 130px;
     font-family: 'Vidaloka', serif;
     font-weight: 100;
-    /*background-color: white;*/
   }
 
   > .divider {
@@ -38,17 +37,16 @@
 
   > .subtitle {
     margin-top: 35px;
+    text-transform: uppercase;
+    font-size: 15px;
   }
 
 }
 
 .about-me, .email {
-  max-width: 500px;
-  font-size: 20px;
-  font-weight: 100;
+  max-width: 550px;
 
   > .desc-link {
-    text-decoration: none;
     color: #0067b1;
   }
 

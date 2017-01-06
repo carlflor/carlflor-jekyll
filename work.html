@@ -1,0 +1,10 @@
+---
+layout: default
+greeting: My Work
+---
+<h2 class="subtitle">current and past projects:</h2>
+<ul class="projects">
+  {% for project in site.data.projects %}
+  <li><a href="{{project.url}}" target="_blank">{{project.title}}</a></li>
+  {% endfor %}
+</ul>

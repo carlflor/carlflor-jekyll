@@ -3,5 +3,4 @@ description: A software engineer based in Manila. Check out my work! :)
 baseurl: ""
 url: "https://carlflor.xyz"
 repository: carlflor/carlflor
-# Build settings
 markdown: kramdown
