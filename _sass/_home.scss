@@ -75,6 +75,15 @@
 
 }
 
+.border-div {
+  height: 30px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+}
+
 @media screen and (max-width: 1024px) {
   .main {
     position: relative;
