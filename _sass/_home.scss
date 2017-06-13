@@ -1,6 +1,5 @@
 .canvas {
   position: fixed;
-  /*top: 0;*/
   top: 50px;
   left: 0;
   bottom: 0;
@@ -12,6 +11,16 @@
     background-color: $main-bg-blue;
     width: 100%;
     height: 100%;
+  }
+
+  > .border {
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    right: -5px;
+    bottom: 5px;
+    margin: 30px;
+    border: 1px solid #8ec0ff;
   }
 }
 
@@ -32,7 +41,7 @@
     max-width: 700px;
     height: 1px;
     border: 0;
-    border-top: 1px solid #888
+    border-top: 1px solid $link-blue;
   }
 
   > .subtitle {
@@ -47,7 +56,7 @@
   max-width: 550px;
 
   > .desc-link {
-    color: #0067b1;
+    color: $link-blue;
   }
 
 }
@@ -69,7 +78,7 @@
   }
   li a {
     font-size: 20px;
-    color: #0067b1;
+    color: $link-blue;
     margin-right: 15px;
   }
 
