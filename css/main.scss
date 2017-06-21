@@ -54,7 +54,9 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "overrides",
-  "home"
+  "home",
+  "project",
+  "navbar"
         /*"base",*/
         /*"layout",*/
         /*"syntax-highlighting"*/

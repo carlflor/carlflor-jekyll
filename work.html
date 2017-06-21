@@ -2,9 +2,14 @@
 layout: default
 greeting: Work
 ---
-<p class="about-me">Here are some of my past and current projects for work and for fun.</p>
 <ul class="projects">
   {% for project in site.data.projects %}
-  <li><a href="{{project.url}}" target="_blank">{{project.title}}</a></li>
+  <div class="project-panel">
+    <img class="image" src="{{ project.image | prepend: "/images/"  }}">
+    <div class="description">
+      <a class="desc-link" href="{{project.url}}" target="_blank">{{project.title}}</a>
+      {{project.description}}
+    </div>
+  </div>
   {% endfor %}
 </ul>

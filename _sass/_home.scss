@@ -4,8 +4,9 @@
   left: 0;
   bottom: 0;
   right: 0;
-  padding: 30px;
+  padding: 30px 30px 50px;
   z-index: 1;
+
 
   > .canvas-inner {
     background-color: $main-bg-blue;
@@ -13,14 +14,15 @@
     height: 100%;
   }
 
-  > .border {
+  &:after {
+    content: '';
     position: absolute;
     top: -5px;
     left: 5px;
     right: -5px;
     bottom: 5px;
-    margin: 30px;
-    border: 1px solid #8ec0ff;
+    border: 1px solid $link-blue;
+    margin: 30px 30px 50px;
   }
 }
 
@@ -28,7 +30,7 @@
   position: relative;
   z-index: 2;
   margin: 0 30px;
-  padding: 0 20px 50px 120px;
+  padding: 0 120px 50px 120px;
 
   > .greeting {
     font-size: 130px;
@@ -54,11 +56,10 @@
 
 .about-me, .email {
   max-width: 550px;
+}
 
-  > .desc-link {
-    color: $link-blue;
-  }
-
+.desc-link {
+  color: $link-blue;
 }
 
 .email {
@@ -67,30 +68,21 @@
 
 .tools {
   list-style: none;
+  margin-bottom: 20px;
 }
 
-.social-media {
-  list-style: none;
-  margin-top: 35px;
-
-  li {
-    display: inline-block;
-  }
-  li a {
-    font-size: 20px;
-    color: $link-blue;
-    margin-right: 15px;
-  }
-
-}
 
 .border-div {
-  height: 30px;
+  height: 50px;
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 10;
 }
 
 @media screen and (max-width: 1024px) {

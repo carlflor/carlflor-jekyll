@@ -7,12 +7,32 @@
     <div class="home">
       <div class="canvas">
         <div class="canvas-inner"></div>
-        <div class="border"></div>
+        <!--<div class="border"></div>-->
       </div>
       <div class="main">
         <h1 class="greeting">{{page.greeting}}</h1>
         <hr class="divider">
         {{ content }}
+        <div class=border-div>
+          <div class="nav">
+            <ul class="nav-menu">
+              <li><a class="desc-link" href="/">Hello</a></li>
+              <li><a class="desc-link" href="{{ '/work' | prepend: site.baseurl }}">Work</a></li>
+              <li><a href="https://github.com/carlflor" target="_blank">
+                <i class="icon ion-social-github"></i>
+              </a></li>
+              <li><a href="https://ph.linkedin.com/in/carlflor" target="_blank">
+                <i class="icon ion-social-linkedin"></i>
+              </a></li>
+              <li><a href="https://www.instagram.com/carlflor/" target="_blank">
+                <i class="icon ion-social-instagram-outline"></i>
+              </a></li>
+              <li><a href="https://twitter.com/carlflor" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+              </a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>
