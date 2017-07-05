@@ -68,7 +68,14 @@
 
 .tools {
   list-style: none;
-  margin-bottom: 20px;
+  margin: 10px 0 20px 0;
+  > li {
+    color: $link-blue;
+    display: inline-block;
+    border: 1px solid $link-blue;
+    padding: 5px;
+    margin: 0 10px 10px 0;
+  }
 }
 
 
