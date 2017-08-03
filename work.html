@@ -6,12 +6,27 @@ Here are some of my most recent projects
 
 <ul class="projects">
   {% for project in site.data.projects %}
-  <div class="project-panel">
-    <img class="image" src="{{ project.image | prepend: "/images/"  }}">
-    <div class="description">
-      <a class="desc-link" href="{{project.url}}" target="_blank">{{project.title}}</a>
-      {{project.description}}
+  {% if project.full %}
+    <div class="project-panel">
+      <img class="image" src="{{ project.image | prepend: "/images/"  }}">
+      <div class="description">
+        <a class="desc-link" href="{{project.url}}" target="_blank">{{project.title}}</a>
+        {{project.description}}
+      </div>
     </div>
-  </div>
+  {% endif %}
   {% endfor %}
 </ul>
+
+<div class="other-projects">
+  {% for project in site.data.projects %}
+  {% if project.full != true %}
+    <div class="project">
+      <a class="desc-link" href="{{project.url}}" target="_blank">
+        <h3>{{ project.title }}</h3>
+      </a
+      <span>{{ project.description }}</span>
+    </div>
+  {% endif %}
+  {% endfor %}
+</div>

@@ -48,3 +48,19 @@
   bottom: 5px;
   pointer-events: none;
 }
+
+.other-projects {
+  margin: 40px 0;
+
+  .project {
+    margin-bottom: 20px;
+  }
+
+  .desc-link {display: inline-block;}
+
+  .desc-link h3 {
+    color: $link-blue;
+    font-weight: normal;
+    margin-right: 10px;
+  }
+}
