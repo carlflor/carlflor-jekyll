@@ -1,0 +1,15 @@
+.post-header,
+.post-content {
+  margin-bottom: $spacing-unit;
+}
+
+.post-panel {
+  > .date {
+    font-size: 12px;
+  }
+
+  > .desc-link {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}

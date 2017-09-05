@@ -1,0 +1,15 @@
+---
+layout: default
+greeting: Notes
+permalink: notes/
+---
+Here are some snippets I write about my daily work as an engineer.
+<br><br>
+<div class="project-panel">
+  {% for post in site.posts %}
+  <div class="post-panel">
+    <span class="date">{{post.date | date: "%b %-d, %Y" }}</span>
+    <a class="desc-link" href="{{post.url}}">{{post.title}}</a>
+  </div>
+  {% endfor %}
+</div>

@@ -1,9 +1,35 @@
 /**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: $spacing-unit;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
+
+/**
  * Syntax highlighting styles
  */
 .highlight {
-    background: #fff;
-    @extend %vertical-rhythm;
+  margin: $spacing-unit / 2 0;
+  border: 1px solid $link-blue;
 
     .highlighter-rouge & {
       background: #eef;

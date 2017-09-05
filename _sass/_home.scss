@@ -33,13 +33,13 @@
   padding: 0 120px 50px 120px;
 
   > .greeting {
-    font-size: 130px;
+    font-size: 50px;
     font-family: 'Vidaloka', serif;
     font-weight: 100;
   }
 
   > .divider {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     max-width: 700px;
     height: 1px;
     border: 0;
@@ -72,9 +72,10 @@
   > li {
     color: $link-blue;
     display: inline-block;
-    border: 1px solid $link-blue;
-    padding: 5px;
-    margin: 0 10px 10px 0;
+    margin-right: 15px;
+    /*border: 1px solid $link-blue;*/
+    /*padding: 5px;*/
+    /*margin: 0 10px 10px 0;*/
   }
 }
 
@@ -102,10 +103,17 @@
 }
 
 @media screen and (max-width: 480px) {
-  .main {
-    > .greeting {
-      font-size: 90px;
+
+  .canvas {
+    padding: 30px 15px 50px;
+    &:after {
+      margin: 30px 15px 50px;
     }
+  }
+
+  .main {
+    margin: 0 10px;
+    padding: 0 20px 50px;
   }
 
   .about-me, .email {

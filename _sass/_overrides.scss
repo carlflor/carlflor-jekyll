@@ -21,4 +21,5 @@ dl, dd, ol, ul, figure {
     color: $main-gray-font;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-weight: $base-font-weight;
 }
