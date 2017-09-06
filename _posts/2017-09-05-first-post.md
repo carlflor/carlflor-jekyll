@@ -3,7 +3,6 @@ layout: post
 title: Hello World!
 slug: hello-world
 permalink: notes/:slug
-greeting: Notes
 ---
 I finally got to sit down and write my first ever blog post!
 <br> _*pats myself on the back*_

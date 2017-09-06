@@ -1,6 +1,10 @@
 .post-header,
 .post-content {
   margin-bottom: $spacing-unit;
+
+  a {
+    color: $link-blue;
+  }
 }
 
 .post-panel {

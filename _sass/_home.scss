@@ -58,6 +58,12 @@
   max-width: 550px;
 }
 
+.about-me {
+  @media screen and (min-width: $on-palm) {
+    margin-top: 75px;
+  }
+}
+
 .desc-link {
   color: $link-blue;
 }

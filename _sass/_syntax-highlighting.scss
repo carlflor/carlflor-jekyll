@@ -13,7 +13,7 @@ code {
 }
 
 pre {
-    padding: $spacing-unit;
+    padding: $spacing-unit / 2;
     overflow-x: auto;
 
     > code {
@@ -30,10 +30,6 @@ pre {
 .highlight {
   margin: $spacing-unit / 2 0;
   border: 1px solid $link-blue;
-
-    .highlighter-rouge & {
-      background: #eef;
-    }
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error

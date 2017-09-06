@@ -10,7 +10,7 @@
         <!--<div class="border"></div>-->
       </div>
       <div class="main">
-        <h1 class="greeting">{{page.greeting}}</h1>
+        <h1 class="greeting">{% if page.greeting %}{{page.greeting}}{% else %}{{layout.greeting}}{% endif %}</h1>
         <hr class="divider">
         {{ content }}
         <div class=border-div>
