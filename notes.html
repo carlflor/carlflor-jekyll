@@ -10,7 +10,9 @@ Here are some snippets I write about my daily work as an engineer.
   {% for post in site.posts %}
   <div class="post-panel">
     <span class="date">{{post.date | date: "%b %-d, %Y" }}</span>
-    <a class="desc-link" href="{{post.url}}">{{post.title}}</a>
+    <div>
+      <a class="desc-link" href="{{post.url}}">{{post.title}}</a>
+    </div>
   </div>
   {% endfor %}
 </div>
