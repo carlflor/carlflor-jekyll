@@ -2,6 +2,7 @@
 layout: post
 title: Create a Sprite for UIImage from a Web Request
 slug: unity-spi-sprite
+category: unity
 permalink: notes/:slug
 ---
 

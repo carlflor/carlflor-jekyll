@@ -2,6 +2,7 @@
 layout: post
 title: Hello World!
 slug: hello-world
+category: random
 permalink: notes/:slug
 ---
 I finally got to sit down and write my first ever blog post!

@@ -6,13 +6,17 @@ permalink: notes/
 Here are some snippets I write about my daily work as an engineer.
 <br>
 <br>
-<div class="project-panel">
+<div class="project-panel -notes">
   {% for post in site.posts %}
   <div class="post-panel">
     <span class="date">{{post.date | date: "%b %-d, %Y" }}</span>
     <div>
       <a class="desc-link" href="{{post.url}}">{{post.title}}</a>
     </div>
+    <span class="category">{{post.category}}</span>
   </div>
+  {% if forloop.last == false %}
+    <hr class="divider -notes">
+  {% endif %}
   {% endfor %}
 </div>

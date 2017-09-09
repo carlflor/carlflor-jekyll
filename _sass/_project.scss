@@ -9,6 +9,10 @@
   margin-bottom: 50px;
   position: relative;
 
+  &.-notes {
+    padding: 0 20px;
+  }
+
   > .description {
     width: 49%;
     @media screen and (max-width: 1024px) {

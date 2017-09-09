@@ -8,9 +8,18 @@
 }
 
 .post-panel {
-
+  padding: $spacing-unit/2 0;
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
+  position: relative;
+  @media screen and (max-width: $on-palm) {
+    display: block;
+  }
+
+  &:last-child{
+    padding-bottom: 25px;
+  }
 
   > .date {
     font-size: 12px;
@@ -22,10 +31,23 @@
     }
   }
 
+  > .category {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $link-blue;
+    @media screen and (max-width: $on-palm) {
+      position: absolute;
+      top: 20px;
+      right: 0;
+    }
+  }
+
+  > div {flex-grow: 1;}
+
   > div .desc-link {
     font-size: 20px;
     @media screen and (max-width: $on-palm) {
-      font-size: 15px;
+      font-size: 13px;
     }
   }
 }
