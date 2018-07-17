@@ -8,8 +8,8 @@
   description: is a financial information site that compares various products. It also includes calculators that help users compute savings or rewards points earned. The content is updated through a CMS built with <span class="desc-link">Active Admin</span>. The main stack used were <span class="desc-link">Ruby on Rails, ReactJS, and Redux</span>. Several <span class="desc-link">Javacript</span> libraries and tools were used such as <span class="desc-link">Browserify, D3, and React-DND</span>. <span class="desc-link">AWS and Heroku</span> were used for production and staging server. I was the lead developer for this project and it lasted around a year.
   image: "select-the-best.png"
   full: true
-- title: FBA SYNC
-  url: https://fbasync.com/
+- title: The Feast Mall of Asia
+  url: https://thefeastmallofasia.com/
   description: A static site of a my Church community. Built using <span class="desc-link">Jekyll</span>.
 - title: Mano Amiga Academy
   url: http://manoamigaph.org/
